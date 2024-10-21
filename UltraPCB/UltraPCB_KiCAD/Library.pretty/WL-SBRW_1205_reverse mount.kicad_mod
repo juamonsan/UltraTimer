@@ -1,0 +1,248 @@
+(footprint "WL-SBRW_1205_reverse mount"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Bi-color Reverse mount Waterclear, body 3.2x1.2mm")
+	(property "Reference" "REF**"
+		(at 0.069995 -2.05877 0)
+		(layer "F.SilkS")
+		(uuid "a64a97f9-477e-40ab-a4c6-82645d92d830")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WL-SBRW_1205_reverse mount"
+		(at 0.069995 1.7 0)
+		(layer "F.Fab")
+		(uuid "f9e8e182-3342-4b66-bcfa-4719fb292573")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f30a4e8-a012-4597-a51e-9ba018992a85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "115ead3d-f138-44df-8af2-f0f110627673")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c630156-36b6-46e3-8fb7-afa92a118951")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center -2.5 0)
+		(end -2.5 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9d2bf037-0fa3-4860-8637-2092c839d42e")
+	)
+	(fp_line
+		(start -2.3 -1.2)
+		(end 2.3 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "0b38e942-49de-443f-8a44-99114f3077ba")
+	)
+	(fp_line
+		(start -2.3 1.2)
+		(end -2.3 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "5b206b43-4af9-491b-9523-39b679c6174a")
+	)
+	(fp_line
+		(start -2.3 1.2)
+		(end 2.3 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "e3895a59-fce3-45fe-aac8-8db747cede88")
+	)
+	(fp_line
+		(start -1.6 -0.6)
+		(end 1.6 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "e57d95e5-b252-469e-90ac-5506e6b46723")
+	)
+	(fp_line
+		(start -1.6 0.6)
+		(end -1.6 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "c7e9b055-f01e-4a81-98dd-807cc9f21db3")
+	)
+	(fp_line
+		(start -1.6 0.6)
+		(end 1.6 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "b6f9516f-2fc3-4e7b-aed2-c29028a9dae6")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "ef50cfcc-2ee8-49b7-a0c0-b43d06933d8b")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "25e1dfd8-8b0f-4a4e-9283-4939839e32ff")
+	)
+	(fp_line
+		(start 1.6 0.6)
+		(end 1.6 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "75977f94-4f09-469a-9383-460a551d67ac")
+	)
+	(fp_line
+		(start 2.3 1.2)
+		(end 2.3 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "b2539220-b609-4b2d-9176-aa370b9e1d85")
+	)
+	(fp_rect
+		(start -1.6 0.6)
+		(end -1.25 -0.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "Eco2.User")
+		(uuid "8dfbdf01-77a6-4dcd-94e1-4d204470b13b")
+	)
+	(fp_text_box "${REFERENCE}"
+		(start -4.15198 -1.30877)
+		(end 4.29197 0.70226)
+		(layer "User.3")
+		(uuid "31fbcceb-efa8-463e-9ae0-68c2b7f53217")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.07)
+			)
+			(justify top)
+		)
+		(border no)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "F&B.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "649a6443-8004-4c5a-b8da-72b7d1b069c3")
+	)
+	(pad "1" smd rect
+		(at -1.65 -0.575)
+		(size 0.9 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "77cbccda-8ddd-4a5b-bbd2-474be79df5e4")
+	)
+	(pad "2" smd rect
+		(at -1.65 0.575)
+		(size 0.9 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "da89955d-85c5-4e22-84ba-c4d630410553")
+	)
+	(pad "3" smd rect
+		(at 1.65 0.575)
+		(size 0.9 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dff3845c-be61-4686-b4e2-6722811edd86")
+	)
+	(pad "4" smd rect
+		(at 1.65 -0.575)
+		(size 0.9 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "45a93bed-3ea3-49a2-a2e3-15c94c773db0")
+	)
+	(model "D:/GIT/UltraTimer/UltraPCB/Components/Download_STP-WL-SBRW-1205 (rev1).stp"
+		(offset
+			(xyz 0 0 -0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

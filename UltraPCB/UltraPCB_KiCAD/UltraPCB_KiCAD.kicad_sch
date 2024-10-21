@@ -2420,47 +2420,29 @@
 				)
 			)
 		)
-		(symbol "LED:LTST-C235KGKRKT"
-			(pin_names
-				(offset 0) hide)
+		(symbol "Library:156125RB73000"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at -5.08 6.35 0)
+				(at 4.826 -12.954 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8288 1.8288)
 					)
 				)
 			)
-			(property "Value" "LTST-C235KGKRKT"
-				(at 0 -5.715 0)
+			(property "Value" "Red & Blue, 120°"
+				(at 0 2.54 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8288 1.8288)
 					)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_LiteOn_LTST-C235KGKRKT"
-				(at 0.762 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2009-0219/LTST-C235KGKRKT.pdf"
-				(at 0.762 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "LED dual red/green, 4-pin, down-facing"
+			(property "Footprint" "WL-SBRW_1205_reverse mount"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2469,7 +2451,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode bicolor down-facing reverse"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2478,7 +2460,286 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*LTST*C235K*"
+			(property "Description" "WL-SBRW SMT Bi-color Waterclear, reverse mount, size 1205, Red & Blue, 120°"
+				(at 4.572 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "156125RB73000"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Category" "Signal LEDs"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Match Code" "WL-SBRW"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink1Description" "Website Link"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/156125RB73000?ad"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink2Description" "Datasheet Link"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/156125RB73000?ad"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mount" "Surface Mount"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature Max" "85°C"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature Min" "-40°C"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Packaging" "Tape and Reel"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Case/Size Code" "1205"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Length" "3.2mm"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Width" "1.2mm"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.28mm"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Chip Technology" "AlInGaP + InGaN"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dominant Wavelength (Blue)" "470nm"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dominant Wavelength (Red)" "624nm"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Emitting Color" "Red & Blue"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Forward Voltage (Blue)" "3.3V"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Forward Voltage (Red)" "2V"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Luminous Intensity (Blue)" "70mcd"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Luminous Intensity (Red)" "45mcd"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Peak Wavelength (Blue)" "468nm"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Peak Wavelength (Red)" "632nm"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Viewing Angle" "120°"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*WL-SBRW_1205_reverse{space}mount*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2487,31 +2748,26 @@
 					(hide yes)
 				)
 			)
-			(symbol "LTST-C235KGKRKT_0_0"
-				(text "G"
-					(at -2.54 -1.27 0)
-					(effects
-						(font
-							(size 1.2954 1.2954)
-						)
+			(symbol "156125RB73000_0_1"
+				(rectangle
+					(start 1.27 3.81)
+					(end 11.43 -11.43)
+					(stroke
+						(width 0)
+						(type default)
 					)
-				)
-				(text "R"
-					(at -2.54 1.27 0)
-					(effects
-						(font
-							(size 1.2954 1.2954)
-						)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(symbol "LTST-C235KGKRKT_0_1"
+			(symbol "156125RB73000_1_0"
 				(polyline
 					(pts
-						(xy -5.08 -2.54) (xy 2.032 -2.54)
+						(xy 7.62 -5.08) (xy 7.62 -10.16)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -2520,10 +2776,10 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy 2.032 2.54)
+						(xy 7.62 -4.064) (xy 9.398 -2.286)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -2532,10 +2788,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 -3.81)
+						(xy 7.62 2.54) (xy 7.62 -2.54)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -2544,10 +2800,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 3.81) (xy 1.27 1.27)
+						(xy 7.62 3.556) (xy 9.398 5.334)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -2556,10 +2812,10 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 1.905 -2.54)
+						(xy 8.636 -5.08) (xy 10.414 -3.302)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -2568,10 +2824,10 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 1.905 2.54)
+						(xy 8.636 2.54) (xy 10.414 4.318)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -2580,72 +2836,83 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
+						(xy 5.08 -10.16) (xy 7.62 -7.62) (xy 5.08 -5.08) (xy 5.08 -10.16)
 					)
 					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 2.794 6.604) (xy 2.032 6.604) (xy 2.794 6.604) (xy 2.794 5.842)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy 4.064 5.334) (xy 3.302 5.334) (xy 4.064 5.334) (xy 4.064 4.572)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 5.08)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
 						(type background)
 					)
 				)
-			)
-			(symbol "LTST-C235KGKRKT_1_1"
-				(pin input line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "K2"
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 7.62 0) (xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.398 -2.286) (xy 8.382 -2.794) (xy 8.89 -3.302) (xy 9.398 -2.286)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.398 5.334) (xy 8.382 4.826) (xy 8.89 4.318) (xy 9.398 5.334)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.414 -3.302) (xy 9.398 -3.81) (xy 9.906 -4.318) (xy 10.414 -3.302)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.414 4.318) (xy 9.398 3.81) (xy 9.906 3.302) (xy 10.414 4.318)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "K"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0 0)
 							)
 						)
 					)
@@ -2657,13 +2924,13 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "A2"
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "K"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0 0)
 							)
 						)
 					)
@@ -2675,13 +2942,13 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "A1"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "A"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0 0)
 							)
 						)
 					)
@@ -2693,13 +2960,13 @@
 						)
 					)
 				)
-				(pin input line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "K1"
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "A"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0 0)
 							)
 						)
 					)
@@ -4922,7 +5189,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 111.76) (xy 232.41 111.76)
+			(xy 222.25 114.3) (xy 232.41 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5492,7 +5759,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 111.76) (xy 243.84 111.76)
+			(xy 240.03 114.3) (xy 243.84 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6133,7 +6400,7 @@
 		(uuid "7dbc90e4-c21a-45dc-b4ca-f698356f9e02")
 	)
 	(label "LED_Blue"
-		(at 222.25 111.76 0)
+		(at 222.25 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6958,6 +7225,352 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:156125RB73000")
+		(at 243.84 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ba80ffa-7979-40c7-adcb-75886c8ee01d")
+		(property "Reference" "D4"
+			(at 250.19 97.79 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Value" "Red & Blue, 120°"
+			(at 243.84 104.14 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "WL-SBRW_1205_reverse mount"
+			(at 243.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WL-SBRW SMT Bi-color Waterclear, reverse mount, size 1205, Red & Blue, 120°"
+			(at 248.412 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "156125RB73000"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Category" "Signal LEDs"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Match Code" "WL-SBRW"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" "Website Link"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/156125RB73000?ad"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" "Datasheet Link"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/156125RB73000?ad"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mount" "Surface Mount"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Max" "85°C"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Min" "-40°C"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "Tape and Reel"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Case/Size Code" "1205"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Length" "3.2mm"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Width" "1.2mm"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.28mm"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Chip Technology" "AlInGaP + InGaN"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Blue)" "470nm"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Red)" "624nm"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Emitting Color" "Red & Blue"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Forward Voltage (Blue)" "3.3V"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Forward Voltage (Red)" "2V"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Blue)" "70mcd"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Red)" "45mcd"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Blue)" "468nm"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Red)" "632nm"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Viewing Angle" "120°"
+			(at 243.332 101.092 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c86a8520-3c52-4688-a242-2eeb3880a21a")
+		)
+		(pin "3"
+			(uuid "778e02ab-aaf2-4f81-8b93-02f5548f3262")
+		)
+		(pin "4"
+			(uuid "65265ecf-5b9a-4a0f-8c57-76f96f4e1d4a")
+		)
+		(pin "1"
+			(uuid "c58c1a64-b5f2-4d50-b760-60f2be25c22d")
+		)
+		(instances
+			(project ""
+				(path "/ca3685b0-75a2-4eeb-85da-ec143f4e5810"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 104.14 0)
 		(unit 1)
@@ -7470,7 +8083,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 106.68 90)
+		(at 256.54 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7479,7 +8092,7 @@
 		(fields_autoplaced yes)
 		(uuid "464f33f7-5634-4b7d-8214-d68b0f3e2497")
 		(property "Reference" "#PWR04"
-			(at 265.43 106.68 0)
+			(at 262.89 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,7 +8101,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 106.6799 90)
+			(at 260.35 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +8110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 106.68 0)
+			(at 256.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,7 +8119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 106.68 0)
+			(at 256.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,7 +8128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 106.68 0)
+			(at 256.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,7 +8518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 245.11 147.32 0)
 			(effects
 				(font
@@ -7975,7 +8588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 266.7 147.32 0)
 			(effects
 				(font
@@ -8647,79 +9260,6 @@
 			(project ""
 				(path "/ca3685b0-75a2-4eeb-85da-ec143f4e5810"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:LTST-C235KGKRKT")
-		(at 251.46 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60b2a263-f621-4c57-8d72-6d89d9d53bb2")
-		(property "Reference" "D1"
-			(at 251.46 101.854 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTST-C235KGKRKT"
-			(at 251.46 116.078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_LiteOn_LTST-C235KGKRKT"
-			(at 252.222 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2009-0219/LTST-C235KGKRKT.pdf"
-			(at 252.222 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED dual red/green, 4-pin, down-facing"
-			(at 251.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4a5ee77-1ce8-41a4-a683-2337bcde20fa")
-		)
-		(pin "4"
-			(uuid "b2536007-56b3-485b-abc3-fe1229fce141")
-		)
-		(pin "2"
-			(uuid "1eacb168-1094-485e-af6b-f097f094151e")
-		)
-		(pin "3"
-			(uuid "c096bb59-2c1f-41de-88a0-c2be6cb64d8b")
-		)
-		(instances
-			(project ""
-				(path "/ca3685b0-75a2-4eeb-85da-ec143f4e5810"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10929,7 +11469,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 111.76 90)
+		(at 256.54 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10938,7 +11478,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1fcad6a-5b02-422c-9769-98a9f9ab2765")
 		(property "Reference" "#PWR03"
-			(at 265.43 111.76 0)
+			(at 262.89 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10947,7 +11487,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 111.7599 90)
+			(at 260.35 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10956,7 +11496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 111.76 0)
+			(at 256.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10965,7 +11505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 111.76 0)
+			(at 256.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10974,7 +11514,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 111.76 0)
+			(at 256.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11343,7 +11883,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 236.22 111.76 90)
+		(at 236.22 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11351,7 +11891,7 @@
 		(dnp no)
 		(uuid "f71b84dc-924f-4a9e-874d-ccdcde96f7e4")
 		(property "Reference" "R12"
-			(at 232.918 110.236 90)
+			(at 232.918 112.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11359,7 +11899,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 240.538 110.49 90)
+			(at 240.538 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11367,7 +11907,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 236.474 110.744 90)
+			(at 236.474 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11376,7 +11916,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 111.76 0)
+			(at 236.22 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11385,7 +11925,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 236.22 111.76 0)
+			(at 236.22 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
