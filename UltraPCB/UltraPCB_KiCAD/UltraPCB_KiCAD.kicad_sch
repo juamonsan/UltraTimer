@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "ca3685b0-75a2-4eeb-85da-ec143f4e5810")
 	(paper "A4")
+	(title_block
+		(title "UltraPCB")
+		(date "2024-10-23")
+		(rev "1.0")
+		(comment 1 "github.com/juamonsan/UltraTimer")
+		(comment 2 "All units in mm")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
