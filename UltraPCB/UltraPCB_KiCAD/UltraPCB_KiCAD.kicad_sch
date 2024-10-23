@@ -6058,7 +6058,7 @@
 		)
 		(uuid "0a0714a7-cfc9-444f-919e-8464fe9f6813")
 	)
-	(label "DispF"
+	(label "Display2"
 		(at 154.94 135.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6124,7 +6124,7 @@
 		)
 		(uuid "1c094a7c-b8bd-46f2-8526-1372d8639d4e")
 	)
-	(label "DispC"
+	(label "Display1"
 		(at 154.94 133.35 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6157,7 +6157,7 @@
 		)
 		(uuid "20e2c9f3-4280-4345-8829-e69d51d07dba")
 	)
-	(label "DisplayL"
+	(label "DispF"
 		(at 111.76 133.35 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6201,7 +6201,7 @@
 		)
 		(uuid "302e7371-204a-4b9c-9b8b-662f410f2b37")
 	)
-	(label "DispG"
+	(label "DispE"
 		(at 111.76 130.81 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6300,7 +6300,7 @@
 		)
 		(uuid "563e5ded-5d74-4d2f-97ee-46adb53043f9")
 	)
-	(label "DispDP"
+	(label "Display4"
 		(at 154.94 148.59 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6311,7 +6311,7 @@
 		)
 		(uuid "56fc46ab-b0bc-4dc0-a333-16c48eba8ae2")
 	)
-	(label "Display1"
+	(label "DispB"
 		(at 111.76 143.51 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6333,7 +6333,7 @@
 		)
 		(uuid "5fbf626b-9be1-4781-bbba-139fd23f9feb")
 	)
-	(label "Display2"
+	(label "DispA"
 		(at 111.76 138.43 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6388,7 +6388,7 @@
 		)
 		(uuid "7054b006-89a2-427a-b1b9-af611159fe01")
 	)
-	(label "DispE"
+	(label "DispC"
 		(at 111.76 135.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6443,7 +6443,7 @@
 		)
 		(uuid "95ea993e-c570-4a91-b35e-5acae869c18c")
 	)
-	(label "Display4"
+	(label "DisplayL"
 		(at 154.94 138.43 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6454,7 +6454,7 @@
 		)
 		(uuid "96816ea5-a422-46d0-a5cf-e71c67076545")
 	)
-	(label "DispD"
+	(label "DispG"
 		(at 111.76 140.97 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6465,7 +6465,7 @@
 		)
 		(uuid "9e45645a-baa0-444d-a7f7-020240217bfa")
 	)
-	(label "DispB"
+	(label "DispDP"
 		(at 111.76 128.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6564,7 +6564,7 @@
 		)
 		(uuid "d4f8fda8-bd3d-41bc-a17e-cb1dd3342336")
 	)
-	(label "DispA"
+	(label "DispD"
 		(at 154.94 130.81 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6729,6 +6729,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-AC0603FR-7W470RL "
 			(at 104.14 53.34 0)
 			(effects
 				(font
@@ -7003,6 +7021,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 104.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-AC0603FR-7W470RL "
+			(at 104.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dce15f9c-4337-4cf0-9f70-7c24a43e2bd3")
 		)
@@ -7063,6 +7099,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 45.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 45.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 855-M20-8770446 "
 			(at 45.72 134.62 0)
 			(effects
 				(font
@@ -7549,6 +7603,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 243.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 710-156125RB73000 "
+			(at 243.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c86a8520-3c52-4688-a242-2eeb3880a21a")
 		)
@@ -7688,6 +7760,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 236.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-AC0603FR-7W470RL "
+			(at 236.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e0b09e6e-59c6-4de9-83e0-7ac707cf2a45")
 		)
@@ -7758,6 +7848,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 69.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 81-GRM188R60J106KE7D "
+			(at 69.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5f72775-b96c-46c3-b173-d83c7bc41083")
 		)
@@ -7818,6 +7926,24 @@
 			)
 		)
 		(property "Description" "4 digit 7 segment hyper red, common anode"
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 859-LTC-4627JD "
 			(at 135.89 53.34 0)
 			(effects
 				(font
@@ -7932,6 +8058,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 81-GCJ188R71E103KA1D "
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40094022-c498-4500-8b35-da48279e343e")
 		)
@@ -7999,6 +8143,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 104.14 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-AC0603FR-7W470RL "
+			(at 104.14 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8f7e2069-1fb0-4361-84c9-a58ab489b3a7")
 		)
@@ -8058,6 +8220,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-AC0603FR-7W470RL "
 			(at 104.14 57.15 0)
 			(effects
 				(font
@@ -8363,7 +8543,7 @@
 				)
 			)
 		)
-		(property "Value" "LM3670MF"
+		(property "Value" "LM3670MF-3.3"
 			(at 48.26 88.9 0)
 			(effects
 				(font
@@ -8391,6 +8571,24 @@
 			)
 		)
 		(property "Description" "Miniature Step-Down DC-DC Converter for Ultralow Voltage Circuits, 2.5V < Vin < 5.5V, adjustable output voltage, SOT-23-5"
+			(at 48.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 48.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 926-LM3670MF33NOPB "
 			(at 48.26 95.25 0)
 			(effects
 				(font
@@ -8475,6 +8673,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 240.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-AC0603FR-7W1KL "
+			(at 240.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fbef164c-7f64-4b2f-8440-3b386ae57222")
 		)
@@ -8545,6 +8761,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 240.03 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" "653-B3FS-1000"
+			(at 240.03 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c70bd61e-44b5-4e36-866c-e8006cafe0bc")
 		)
@@ -8607,6 +8841,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 261.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 261.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" "653-B3FS-1000"
 			(at 261.62 147.32 0)
 			(effects
 				(font
@@ -8884,6 +9136,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 135.89 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 511-STM32F030K6T6TR "
+			(at 135.89 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "86b3a4ca-7a6a-4915-9d22-23f8901bcb7e")
 		)
@@ -9047,6 +9317,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 250.19 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 942-IRLML6401TRPBF "
+			(at 250.19 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "caa03255-b8d6-46a5-bb1e-27322197dab1")
 		)
@@ -9109,6 +9397,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-AC0603FR-7W470RL "
 			(at 104.14 48.26 0)
 			(effects
 				(font
@@ -9250,6 +9556,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 710-150080AS75000 "
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f61ae262-95b7-4146-a1a4-8f173ab78f46")
 		)
@@ -9378,6 +9702,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 81-GRM185C80J475ME1D "
 			(at 127 97.79 0)
 			(effects
 				(font
@@ -9589,6 +9931,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 81-GCJ188R71C104MA1D "
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0f3557e-ae39-4590-afdc-85317696b75b")
 		)
@@ -9648,6 +10008,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-AC0603FR-7W470RL "
 			(at 104.14 43.18 0)
 			(effects
 				(font
@@ -9729,6 +10107,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 250.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 942-IRLML6401TRPBF "
+			(at 250.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12c1cf45-36fe-4ccb-8bfd-f2d915d89523")
 		)
@@ -9794,6 +10190,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 81-GCJ188R71C104MA1D "
 			(at 102.87 97.79 0)
 			(effects
 				(font
@@ -9935,6 +10349,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 212.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-AC0603FR-7W470RL "
+			(at 212.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "766ea092-6b24-4d62-8a08-5a50af45546c")
 		)
@@ -9994,6 +10426,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 76.2 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 76.2 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-AC0603FR-7W1KL "
 			(at 76.2 166.37 0)
 			(effects
 				(font
@@ -10062,6 +10512,24 @@
 			)
 		)
 		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 179-UJCHGSMT2P6TR "
 			(at 38.1 43.18 0)
 			(effects
 				(font
@@ -10212,6 +10680,24 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 963-CBMF1608T100K "
 			(at 59.69 92.71 0)
 			(effects
 				(font
@@ -10411,6 +10897,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 198.12 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 198.12 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-RC0603FR-7W10KL "
 			(at 198.12 29.21 0)
 			(effects
 				(font
@@ -10691,6 +11195,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 207.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 942-IRLML6401TRPBF "
+			(at 207.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "267947af-8a3a-4e9a-930f-52c471191bc4")
 		)
@@ -10827,6 +11349,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 212.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 710-150080AS75000 "
+			(at 212.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "467610dc-2a41-4908-9a50-c3abf8965894")
 		)
@@ -10896,6 +11436,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 81-GRM185C80J475ME1D "
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e74055f-96d6-4d96-8e12-26a9b4f7f495")
 		)
@@ -10955,6 +11513,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 241.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 241.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-RC0603FR-7W10KL "
 			(at 241.3 30.48 0)
 			(effects
 				(font
@@ -11036,6 +11612,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" "942-IRLML6244TRPBF "
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f05e8db6-e13a-4bc3-95d7-700e9f8ee9f6")
 		)
@@ -11101,6 +11695,24 @@
 			)
 		)
 		(property "Description" "Piezo Buzzers & Audio Indicators Buzzer 9mm sq 4kHz 25V TH"
+			(at 85.09 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 85.09 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 490-CPT-9019S-SMT-TR "
 			(at 85.09 167.64 0)
 			(effects
 				(font
@@ -11242,6 +11854,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 199.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-AC0603FR-7W470RL "
+			(at 199.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "56192864-deb7-460e-9fe1-1bde8b89558a")
 		)
@@ -11301,6 +11931,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 261.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 261.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-AC0603FR-7W1KL "
 			(at 261.62 138.43 0)
 			(effects
 				(font
@@ -11382,6 +12030,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 942-IRLML6401TRPBF "
+			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a03de45-b8fd-474d-852a-81acb4ac9000")
 		)
@@ -11444,6 +12110,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 104.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 104.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-AC0603FR-7W470RL "
 			(at 104.14 38.1 0)
 			(effects
 				(font
@@ -11586,6 +12270,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 198.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-RC0603FR-7W10KL "
+			(at 198.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0948df48-b343-425e-90f7-0e01801949f1")
 		)
@@ -11645,6 +12347,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 241.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 241.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-RC0603FR-7W10KL "
 			(at 241.3 48.26 0)
 			(effects
 				(font
@@ -11726,6 +12446,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 207.01 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 942-IRLML6401TRPBF "
+			(at 207.01 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0fbccc9c-396f-43fd-9ec5-41c9d1d0acb1")
 		)
@@ -11788,6 +12526,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 104.14 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 104.14 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-AC0603FR-7W470RL "
 			(at 104.14 33.02 0)
 			(effects
 				(font
@@ -11866,6 +12622,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier1" "Mouser"
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 81-GRM39R105K10 "
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "453957ef-d5ee-41c7-aa08-ef9347a7f52d")
 		)
@@ -11925,6 +12699,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 236.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 236.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-AC0603FR-7W470RL "
 			(at 236.22 114.3 0)
 			(effects
 				(font
@@ -12058,6 +12850,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 223.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier1" "Mouser"
+			(at 223.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPartNumber1" " 603-RC0603FR-7W10KL "
 			(at 223.52 68.58 0)
 			(effects
 				(font
