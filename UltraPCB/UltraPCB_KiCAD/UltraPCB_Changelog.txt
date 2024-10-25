@@ -1,0 +1,17 @@
+----------------------------------------
+Project: UltraTimer
+File: UltraPCB_KiCAD
+Author: Juan M. Montes
+Link: github.com/juamonsan/UltraTimer
+----------------------------------------
+CHANGELOG / VERSION HISTORY
+
+Rev 1.1 - 2024/10/25
+Error corrections:
+- Tracks in R4 and R5 not being connected is now fixed
+- Overlapping silkscreen designators fixed
+- Added tracks for GND in F.Cu over the footprint image for KiCAD to consider them connected in DRC. These tracks generate errors in DRC since they overlap the footprint. All these error have been excluded.
+- Edge cut at the right side now is slimmer. Tracks that were affected have been rerouted.
+
+Rev 1.0 - 2024/10/23
+First version.
