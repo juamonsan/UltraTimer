@@ -601,7 +601,7 @@
       "plot": "production/UltraPCB_gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Production_Files/Latest/UltraPCB_KiCAD.step",
       "svg": "",
       "vrml": ""
     },
