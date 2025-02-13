@@ -6,6 +6,10 @@ Link: github.com/juamonsan/UltraTimer
 ----------------------------------------
 CHANGELOG / VERSION HISTORY
 
+Rev 1.2 - 2025/02/13
+Error corrections:
+- SW1_IN and SW2_IN signals where unconnected and now is fixed. Minor changes on routing due to these new connections.
+
 Rev 1.1 - 2024/10/25
 Error corrections:
 - Tracks in R4 and R5 not being connected is now fixed

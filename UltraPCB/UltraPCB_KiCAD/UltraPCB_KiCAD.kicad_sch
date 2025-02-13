@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "UltraPCB")
-		(date "2024-10-25")
-		(rev "1.1")
+		(date "2025-02-13")
+		(rev "1.2")
 		(comment 1 "github.com/juamonsan/UltraTimer")
 		(comment 2 "All units in mm")
 	)
@@ -5216,6 +5216,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 128.27) (xy 151.13 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b2bd489-4414-4be9-b199-4e6c9a7c58fa")
+	)
+	(wire
+		(pts
 			(xy 111.76 58.42) (xy 115.57 58.42)
 		)
 		(stroke
@@ -5726,6 +5736,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 123.19) (xy 151.13 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40ed958-b52c-4040-861f-9daf9d1416a9")
+	)
+	(wire
+		(pts
 			(xy 76.2 162.56) (xy 80.01 162.56)
 		)
 		(stroke
@@ -6056,7 +6076,6 @@
 	)
 	(label "SWCLK"
 		(at 154.94 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6067,7 +6086,6 @@
 	)
 	(label "Display2"
 		(at 154.94 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6078,7 +6096,6 @@
 	)
 	(label "CA4"
 		(at 252.73 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6089,7 +6106,6 @@
 	)
 	(label "SWCLK"
 		(at 43.18 147.32 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6100,7 +6116,6 @@
 	)
 	(label "DispD"
 		(at 93.98 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6111,7 +6126,6 @@
 	)
 	(label "CAL"
 		(at 234.95 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6122,7 +6136,6 @@
 	)
 	(label "Display1"
 		(at 185.42 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6133,7 +6146,6 @@
 	)
 	(label "Display1"
 		(at 154.94 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6144,7 +6156,6 @@
 	)
 	(label "Display3"
 		(at 185.42 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6155,7 +6166,6 @@
 	)
 	(label "DispC"
 		(at 93.98 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6166,7 +6176,6 @@
 	)
 	(label "DispF"
 		(at 111.76 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6177,7 +6186,6 @@
 	)
 	(label "CA3"
 		(at 209.55 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6188,7 +6196,6 @@
 	)
 	(label "CA1"
 		(at 156.21 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6199,7 +6206,6 @@
 	)
 	(label "DisplayL"
 		(at 210.82 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6210,7 +6216,6 @@
 	)
 	(label "DispE"
 		(at 111.76 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6221,7 +6226,6 @@
 	)
 	(label "DispG"
 		(at 93.98 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6232,7 +6236,6 @@
 	)
 	(label "LED_Blue"
 		(at 111.76 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6243,7 +6246,6 @@
 	)
 	(label "CAL"
 		(at 156.21 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6253,8 +6255,17 @@
 		(uuid "4348e2dd-f09f-4dff-9567-dadf7cc00559")
 	)
 	(label "SW1_IN"
+		(at 154.94 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49305dbf-489c-41a2-8285-7a4c14f35981")
+	)
+	(label "SW1_IN"
 		(at 226.06 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6265,7 +6276,6 @@
 	)
 	(label "SWDIO"
 		(at 154.94 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6276,7 +6286,6 @@
 	)
 	(label "CA2"
 		(at 252.73 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6287,7 +6296,6 @@
 	)
 	(label "CA4"
 		(at 156.21 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6298,7 +6306,6 @@
 	)
 	(label "Display3"
 		(at 154.94 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6309,7 +6316,6 @@
 	)
 	(label "Display4"
 		(at 154.94 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6320,7 +6326,6 @@
 	)
 	(label "DispB"
 		(at 111.76 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6331,7 +6336,6 @@
 	)
 	(label "SW2_IN"
 		(at 247.65 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6340,9 +6344,18 @@
 		)
 		(uuid "5fbf626b-9be1-4781-bbba-139fd23f9feb")
 	)
+	(label "SW2_IN"
+		(at 154.94 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60f7c0c7-26c4-4a88-9a53-6cee446acf75")
+	)
 	(label "DispA"
 		(at 111.76 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6353,7 +6366,6 @@
 	)
 	(label "LED1"
 		(at 199.39 102.87 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6364,7 +6376,6 @@
 	)
 	(label "CA1"
 		(at 209.55 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6375,7 +6386,6 @@
 	)
 	(label "DispDP"
 		(at 92.71 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6386,7 +6396,6 @@
 	)
 	(label "CA3"
 		(at 156.21 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6397,7 +6406,6 @@
 	)
 	(label "DispC"
 		(at 111.76 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6408,7 +6416,6 @@
 	)
 	(label "LED_Blue"
 		(at 222.25 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6419,7 +6426,6 @@
 	)
 	(label "Timer3_PWM"
 		(at 154.94 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6430,7 +6436,6 @@
 	)
 	(label "LED_Red"
 		(at 111.76 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6441,7 +6446,6 @@
 	)
 	(label "DispB"
 		(at 93.98 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6452,7 +6456,6 @@
 	)
 	(label "DisplayL"
 		(at 154.94 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6463,7 +6466,6 @@
 	)
 	(label "DispG"
 		(at 111.76 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6474,7 +6476,6 @@
 	)
 	(label "DispDP"
 		(at 111.76 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6485,7 +6486,6 @@
 	)
 	(label "Display2"
 		(at 228.6 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6496,7 +6496,6 @@
 	)
 	(label "SWDIO"
 		(at 40.64 147.32 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6507,7 +6506,6 @@
 	)
 	(label "LED1"
 		(at 154.94 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6518,7 +6516,6 @@
 	)
 	(label "LED2"
 		(at 154.94 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6529,7 +6526,6 @@
 	)
 	(label "DispF"
 		(at 93.98 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6540,7 +6536,6 @@
 	)
 	(label "Display4"
 		(at 228.6 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6551,7 +6546,6 @@
 	)
 	(label "DispE"
 		(at 93.98 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6562,7 +6556,6 @@
 	)
 	(label "DispA"
 		(at 93.98 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6573,7 +6566,6 @@
 	)
 	(label "DispD"
 		(at 154.94 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6584,7 +6576,6 @@
 	)
 	(label "LED2"
 		(at 212.09 102.87 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6595,7 +6586,6 @@
 	)
 	(label "CA2"
 		(at 156.21 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6606,7 +6596,6 @@
 	)
 	(label "LED_Red"
 		(at 222.25 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6617,7 +6606,6 @@
 	)
 	(label "Timer3_PWM"
 		(at 59.69 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
