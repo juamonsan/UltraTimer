@@ -31,7 +31,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define TIM_FREQ 8000000
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -40,6 +40,7 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+TIM_HandleTypeDef htim3;
 
 /* USER CODE BEGIN PV */
 
@@ -48,6 +49,7 @@
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
+static void MX_TIM3_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -75,6 +77,7 @@ int main(void)
 
   /* USER CODE BEGIN Init */
 
+
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -86,18 +89,46 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
+  /* Blue Start */
   HAL_GPIO_TogglePin(LED_Red_GPIO_Port, LED_Red_Pin);
+  /* Eyes on*/
+  HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
+  HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
+
+  /* Display OFF */
+  HAL_GPIO_WritePin(Display1_GPIO_Port, Display1_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(Display2_GPIO_Port, Display2_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(Display3_GPIO_Port, Display3_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(Display4_GPIO_Port, Display4_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(DisplayL_GPIO_Port, DisplayL_Pin, GPIO_PIN_RESET);
+
+  HAL_GPIO_WritePin(DispA_GPIO_Port, DispA_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DispB_GPIO_Port, DispB_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DispC_GPIO_Port, DispC_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DispD_GPIO_Port, DispD_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DispE_GPIO_Port, DispE_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DispF_GPIO_Port, DispF_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DispG_GPIO_Port, DispG_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DispDP_GPIO_Port, DispDP_Pin, GPIO_PIN_SET);
+
+  /* Start PWM */
+//  HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
-	  HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
 	  HAL_GPIO_TogglePin(LED_Blue_GPIO_Port, LED_Blue_Pin);
 	  HAL_GPIO_TogglePin(LED_Red_GPIO_Port, LED_Red_Pin);
+
+//	  __HAL_TIM_SET_PRESCALER(&htim3, presForFrequency(900));
+//	  HAL_Delay(150);
+//	  __HAL_TIM_SET_PRESCALER(&htim3, presForFrequency(500));
+//	  HAL_Delay(400);
 	  HAL_Delay(1000);
     /* USER CODE END WHILE */
 
@@ -139,6 +170,65 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
+}
+
+/**
+  * @brief TIM3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM3_Init(void)
+{
+
+  /* USER CODE BEGIN TIM3_Init 0 */
+
+  /* USER CODE END TIM3_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+  TIM_OC_InitTypeDef sConfigOC = {0};
+
+  /* USER CODE BEGIN TIM3_Init 1 */
+
+  /* USER CODE END TIM3_Init 1 */
+  htim3.Instance = TIM3;
+  htim3.Init.Prescaler = 0;
+  htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim3.Init.Period = 1000-1;
+  htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
+  if (HAL_TIM_Base_Init(&htim3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim3, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_PWM_Init(&htim3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim3, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sConfigOC.OCMode = TIM_OCMODE_PWM1;
+  sConfigOC.Pulse = 500;
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  if (HAL_TIM_PWM_ConfigChannel(&htim3, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM3_Init 2 */
+
+  /* USER CODE END TIM3_Init 2 */
+  HAL_TIM_MspPostInit(&htim3);
+
 }
 
 /**
@@ -190,14 +280,6 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : Timer3_PWM_Pin */
-  GPIO_InitStruct.Pin = Timer3_PWM_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  GPIO_InitStruct.Alternate = GPIO_AF1_TIM3;
-  HAL_GPIO_Init(Timer3_PWM_GPIO_Port, &GPIO_InitStruct);
-
   /*Configure GPIO pins : DispDP_Pin DispE_Pin DispF_Pin DispC_Pin
                            DispA_Pin DispG_Pin DispB_Pin */
   GPIO_InitStruct.Pin = DispDP_Pin|DispE_Pin|DispF_Pin|DispC_Pin
@@ -213,6 +295,11 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 
+int presForFrequency (int frequency)
+{
+	if (frequency == 0) return 0;
+	return ((TIM_FREQ/(1000*frequency)));
+}
 /* USER CODE END 4 */
 
 /**
