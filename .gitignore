@@ -3,4 +3,4 @@
 /UltraPCB/Components
 /UltraPCB/UltraPCB_KiCAD/fp-lib-table
 /UltraPCB/UltraPCB_KiCAD/sym-lib-table
-.metadata/
+/STM32_code/.metadata/
