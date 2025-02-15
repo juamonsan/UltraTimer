@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "stdbool.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -40,6 +40,7 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+TIM_HandleTypeDef htim1;
 TIM_HandleTypeDef htim3;
 
 /* USER CODE BEGIN PV */
@@ -50,8 +51,9 @@ TIM_HandleTypeDef htim3;
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_TIM3_Init(void);
+static void MX_TIM1_Init(void);
 /* USER CODE BEGIN PFP */
-
+bool state = true;
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -90,6 +92,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_TIM3_Init();
+  MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
   /* Blue Start */
   HAL_GPIO_TogglePin(LED_Red_GPIO_Port, LED_Red_Pin);
@@ -116,20 +119,31 @@ int main(void)
   /* Start PWM */
 //  HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
 
+  int mode=0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  HAL_GPIO_TogglePin(LED_Blue_GPIO_Port, LED_Blue_Pin);
-	  HAL_GPIO_TogglePin(LED_Red_GPIO_Port, LED_Red_Pin);
+	  switch (mode){
+	  case 0:
+		  HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
+		  HAL_Delay(500);
+		  break;
 
+
+
+
+	  }
+
+//	  HAL_GPIO_TogglePin(LED_Blue_GPIO_Port, LED_Blue_Pin);
+//	  HAL_GPIO_TogglePin(LED_Red_GPIO_Port, LED_Red_Pin);
 //	  __HAL_TIM_SET_PRESCALER(&htim3, presForFrequency(900));
 //	  HAL_Delay(150);
 //	  __HAL_TIM_SET_PRESCALER(&htim3, presForFrequency(500));
 //	  HAL_Delay(400);
-	  HAL_Delay(1000);
+//	  HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -170,6 +184,52 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
+}
+
+/**
+  * @brief TIM1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM1_Init(void)
+{
+
+  /* USER CODE BEGIN TIM1_Init 0 */
+
+  /* USER CODE END TIM1_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM1_Init 1 */
+
+  /* USER CODE END TIM1_Init 1 */
+  htim1.Instance = TIM1;
+  htim1.Init.Prescaler = 4000;
+  htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim1.Init.Period = 50;
+  htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim1.Init.RepetitionCounter = 0;
+  htim1.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim1, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim1, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM1_Init 2 */
+
+  /* USER CODE END TIM1_Init 2 */
+
 }
 
 /**
@@ -274,11 +334,17 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : B_BUTTON_Pin A_BUTTON_Pin */
-  GPIO_InitStruct.Pin = B_BUTTON_Pin|A_BUTTON_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+  /*Configure GPIO pin : B_Button_EXTI_Pin */
+  GPIO_InitStruct.Pin = B_Button_EXTI_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  HAL_GPIO_Init(B_Button_EXTI_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : A_Button_EXTI_Pin */
+  GPIO_InitStruct.Pin = A_Button_EXTI_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_EVT_FALLING;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  HAL_GPIO_Init(A_Button_EXTI_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : DispDP_Pin DispE_Pin DispF_Pin DispC_Pin
                            DispA_Pin DispG_Pin DispB_Pin */
@@ -288,6 +354,10 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI4_15_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI4_15_IRQn);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
@@ -300,6 +370,48 @@ int presForFrequency (int frequency)
 	if (frequency == 0) return 0;
 	return ((TIM_FREQ/(1000*frequency)));
 }
+
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+  /* Prevent unused argument(s) compilation warning */
+	if(GPIO_Pin == A_Button_EXTI_Pin && state == true){
+		HAL_TIM_Base_Start_IT(&htim1);
+		state = false;
+	}
+
+	else if(GPIO_Pin == B_Button_EXTI_Pin && state == true){
+		HAL_TIM_Base_Start_IT(&htim1);
+		state = false;
+	}
+
+	else{
+		__NOP();
+	}
+
+}
+
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+  /* Prevent unused argument(s) compilation warning */
+  UNUSED(htim);
+
+  /* NOTE : This function should not be modified, when the callback is needed,
+            the HAL_TIM_PeriodElapsedCallback could be implemented in the user file
+   */
+	if(HAL_GPIO_ReadPin(B_Button_EXTI_GPIO_Port, B_Button_EXTI_Pin) == GPIO_PIN_RESET){
+		HAL_GPIO_TogglePin(LED_Blue_GPIO_Port, LED_Red_Pin);
+		HAL_GPIO_TogglePin(LED_Blue_GPIO_Port, LED_Blue_Pin);
+		state = true;
+		HAL_TIM_Base_Stop_IT(&htim1);
+	}
+	else if(HAL_GPIO_ReadPin(A_Button_EXTI_GPIO_Port, A_Button_EXTI_Pin) == GPIO_PIN_RESET){
+		HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
+		HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
+		state = true;
+		HAL_TIM_Base_Stop_IT(&htim1);
+	}
+}
+
 /* USER CODE END 4 */
 
 /**

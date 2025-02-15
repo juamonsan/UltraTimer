@@ -60,8 +60,8 @@ all: main-build
 main-build: UltraTimer_Demo.elf secondary-outputs
 
 # Tool invocations
-UltraTimer_Demo.elf UltraTimer_Demo.map: $(OBJS) $(USER_OBJS) D:\STM32\UltraTimer_Demo\STM32F030K6TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "UltraTimer_Demo.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"D:\STM32\UltraTimer_Demo\STM32F030K6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UltraTimer_Demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+UltraTimer_Demo.elf UltraTimer_Demo.map: $(OBJS) $(USER_OBJS) D:\GIT\UltraTimer\STM32_code\UltraTimer_Demo\STM32F030K6TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "UltraTimer_Demo.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"D:\GIT\UltraTimer\STM32_code\UltraTimer_Demo\STM32F030K6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UltraTimer_Demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
