@@ -94,6 +94,8 @@ int main(void)
   MX_TIM3_Init();
   MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
+  int Ref_time=2;
+
   /* Blue Start */
   HAL_GPIO_TogglePin(LED_Red_GPIO_Port, LED_Red_Pin);
   /* Eyes on*/
@@ -101,11 +103,11 @@ int main(void)
   HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
 
   /* Display OFF */
-  HAL_GPIO_WritePin(Display1_GPIO_Port, Display1_Pin, GPIO_PIN_RESET);
-  HAL_GPIO_WritePin(Display2_GPIO_Port, Display2_Pin, GPIO_PIN_RESET);
-  HAL_GPIO_WritePin(Display3_GPIO_Port, Display3_Pin, GPIO_PIN_RESET);
-  HAL_GPIO_WritePin(Display4_GPIO_Port, Display4_Pin, GPIO_PIN_RESET);
-  HAL_GPIO_WritePin(DisplayL_GPIO_Port, DisplayL_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(Display1_GPIO_Port, Display1_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(Display2_GPIO_Port, Display2_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(Display3_GPIO_Port, Display3_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(Display4_GPIO_Port, Display4_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(DisplayL_GPIO_Port, DisplayL_Pin, GPIO_PIN_SET);
 
   HAL_GPIO_WritePin(DispA_GPIO_Port, DispA_Pin, GPIO_PIN_SET);
   HAL_GPIO_WritePin(DispB_GPIO_Port, DispB_Pin, GPIO_PIN_SET);
@@ -129,10 +131,55 @@ int main(void)
 	  switch (mode){
 	  case 0:
 		  __HAL_TIM_SET_PRESCALER(&htim3, 0);
-		  HAL_GPIO_WritePin(Display1_GPIO_Port, Display1_Pin, GPIO_PIN_SET);
-		  HAL_Delay(500);
+
 		  HAL_GPIO_WritePin(Display1_GPIO_Port, Display1_Pin, GPIO_PIN_RESET);
-		  HAL_Delay(500);
+		  HAL_GPIO_WritePin(DispA_GPIO_Port, DispA_Pin, GPIO_PIN_SET);
+		  HAL_GPIO_WritePin(DispB_GPIO_Port, DispB_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispC_GPIO_Port, DispC_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispD_GPIO_Port, DispD_Pin, GPIO_PIN_SET);
+		  HAL_GPIO_WritePin(DispE_GPIO_Port, DispE_Pin, GPIO_PIN_SET);
+		  HAL_GPIO_WritePin(DispF_GPIO_Port, DispF_Pin, GPIO_PIN_SET);
+		  HAL_GPIO_WritePin(DispG_GPIO_Port, DispG_Pin, GPIO_PIN_SET);
+		  HAL_GPIO_WritePin(DispDP_GPIO_Port, DispDP_Pin, GPIO_PIN_SET);
+		  HAL_Delay(Ref_time);
+		  HAL_GPIO_WritePin(Display1_GPIO_Port, Display1_Pin, GPIO_PIN_SET);
+
+		  HAL_GPIO_WritePin(Display2_GPIO_Port, Display2_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispA_GPIO_Port, DispA_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispB_GPIO_Port, DispB_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispC_GPIO_Port, DispC_Pin, GPIO_PIN_SET);
+		  HAL_GPIO_WritePin(DispD_GPIO_Port, DispD_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispE_GPIO_Port, DispE_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispF_GPIO_Port, DispF_Pin, GPIO_PIN_SET);
+		  HAL_GPIO_WritePin(DispG_GPIO_Port, DispG_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispDP_GPIO_Port, DispDP_Pin, GPIO_PIN_SET);
+		  HAL_Delay(Ref_time);
+		  HAL_GPIO_WritePin(Display2_GPIO_Port, Display2_Pin, GPIO_PIN_SET);
+
+
+		  HAL_GPIO_WritePin(Display3_GPIO_Port, Display3_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispA_GPIO_Port, DispA_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispB_GPIO_Port, DispB_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispC_GPIO_Port, DispC_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispD_GPIO_Port, DispD_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispE_GPIO_Port, DispE_Pin, GPIO_PIN_SET);
+		  HAL_GPIO_WritePin(DispF_GPIO_Port, DispF_Pin, GPIO_PIN_SET);
+		  HAL_GPIO_WritePin(DispG_GPIO_Port, DispG_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispDP_GPIO_Port, DispDP_Pin, GPIO_PIN_SET);
+		  HAL_Delay(Ref_time);
+		  HAL_GPIO_WritePin(Display3_GPIO_Port, Display3_Pin, GPIO_PIN_SET);
+
+		  HAL_GPIO_WritePin(Display4_GPIO_Port, Display4_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispA_GPIO_Port, DispA_Pin, GPIO_PIN_SET);
+		  HAL_GPIO_WritePin(DispB_GPIO_Port, DispB_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispC_GPIO_Port, DispC_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispD_GPIO_Port, DispD_Pin, GPIO_PIN_SET);
+		  HAL_GPIO_WritePin(DispE_GPIO_Port, DispE_Pin, GPIO_PIN_SET);
+		  HAL_GPIO_WritePin(DispF_GPIO_Port, DispF_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispG_GPIO_Port, DispG_Pin, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(DispDP_GPIO_Port, DispDP_Pin, GPIO_PIN_SET);
+		  HAL_Delay(Ref_time);
+		  HAL_GPIO_WritePin(Display4_GPIO_Port, Display4_Pin, GPIO_PIN_SET);
 		  break;
 
 	  case 1:
@@ -395,12 +442,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
-  /* Prevent unused argument(s) compilation warning */
-  UNUSED(htim);
 
-  /* NOTE : This function should not be modified, when the callback is needed,
-            the HAL_TIM_PeriodElapsedCallback could be implemented in the user file
-   */
 	if(HAL_GPIO_ReadPin(B_Button_EXTI_GPIO_Port, B_Button_EXTI_Pin) == GPIO_PIN_RESET){
 		HAL_GPIO_TogglePin(LED_Blue_GPIO_Port, LED_Red_Pin);
 		HAL_GPIO_TogglePin(LED_Blue_GPIO_Port, LED_Blue_Pin);
