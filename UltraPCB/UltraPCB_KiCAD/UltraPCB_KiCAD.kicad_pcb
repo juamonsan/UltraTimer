@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "UltraPCB")
-		(date "2025-02-13")
+		(date "2025-03-02")
 		(rev "1.2")
 		(comment 1 "All units in mm")
 		(comment 2 "github.com/juamonsan/UltraTimer")
@@ -97,7 +97,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 4)
 			(mirror no)
-			(drillshape 0)
+			(drillshape 2)
 			(scaleselection 1)
 			(outputdirectory "production/UltraPCB_gerber/")
 		)
@@ -3458,7 +3458,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "IRLML6401"
+		(property "Value" "SQ2325ES-T1_GE3"
 			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "0b870713-b6b2-46c4-83f4-10a475fbaaad")
@@ -3484,7 +3484,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
+		(property "Datasheet" "https://www.vishay.com/docs/67847/sq2325es.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3498,7 +3498,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "MOSFET, P-Chnl, 150-V (D-S), V GS(th) -2.5V to -3.5V, AEC-Q101 Qualified, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3526,7 +3526,7 @@
 				(justify mirror)
 			)
 		)
-		(property "SupplierPartNumber1" " 942-IRLML6401TRPBF "
+		(property "SupplierPartNumber1" " 78-SQ2325ES-T1_GE3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4959,7 +4959,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "IRLML6401"
+		(property "Value" "SQ2325ES-T1_GE3"
 			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "c3cfb579-e8ef-4b87-accb-c533de2463d5")
@@ -4985,7 +4985,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
+		(property "Datasheet" "https://www.vishay.com/docs/67847/sq2325es.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4999,7 +4999,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "MOSFET, P-Chnl, 150-V (D-S), V GS(th) -2.5V to -3.5V, AEC-Q101 Qualified, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5027,7 +5027,7 @@
 				(justify mirror)
 			)
 		)
-		(property "SupplierPartNumber1" " 942-IRLML6401TRPBF "
+		(property "SupplierPartNumber1" " 78-SQ2325ES-T1_GE3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9797,7 +9797,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "IRLML6401"
+		(property "Value" "SQ2325ES-T1_GE3"
 			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "111b9916-047d-4eb7-a13d-762ff1e00377")
@@ -9823,7 +9823,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
+		(property "Datasheet" "https://www.vishay.com/docs/67847/sq2325es.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9837,7 +9837,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "MOSFET, P-Chnl, 150-V (D-S), V GS(th) -2.5V to -3.5V, AEC-Q101 Qualified, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9865,7 +9865,7 @@
 				(justify mirror)
 			)
 		)
-		(property "SupplierPartNumber1" " 942-IRLML6401TRPBF "
+		(property "SupplierPartNumber1" " 78-SQ2325ES-T1_GE3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10998,7 +10998,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "IRLML6401"
+		(property "Value" "SQ2325ES-T1_GE3"
 			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "a7c5c0b2-ca04-435c-a463-c30c37fc032f")
@@ -11024,7 +11024,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
+		(property "Datasheet" "https://www.vishay.com/docs/67847/sq2325es.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11038,7 +11038,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "MOSFET, P-Chnl, 150-V (D-S), V GS(th) -2.5V to -3.5V, AEC-Q101 Qualified, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11066,7 +11066,7 @@
 				(justify mirror)
 			)
 		)
-		(property "SupplierPartNumber1" " 942-IRLML6401TRPBF "
+		(property "SupplierPartNumber1" " 78-SQ2325ES-T1_GE3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12932,7 +12932,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "IRLML6401"
+		(property "Value" "SQ2325ES-T1_GE3"
 			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "83bdfa3b-b587-4541-aa1c-d0cf2bdde524")
@@ -12958,7 +12958,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
+		(property "Datasheet" "https://www.vishay.com/docs/67847/sq2325es.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12972,7 +12972,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "MOSFET, P-Chnl, 150-V (D-S), V GS(th) -2.5V to -3.5V, AEC-Q101 Qualified, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13000,7 +13000,7 @@
 				(justify mirror)
 			)
 		)
-		(property "SupplierPartNumber1" " 942-IRLML6401TRPBF "
+		(property "SupplierPartNumber1" " 78-SQ2325ES-T1_GE3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

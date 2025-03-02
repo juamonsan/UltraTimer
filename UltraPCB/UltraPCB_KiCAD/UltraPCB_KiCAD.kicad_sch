@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "UltraPCB")
-		(date "2025-02-13")
+		(date "2025-03-02")
 		(rev "1.2")
 		(comment 1 "github.com/juamonsan/UltraTimer")
 		(comment 2 "All units in mm")
@@ -2987,6 +2987,319 @@
 				)
 			)
 		)
+		(symbol "Library:SQ2325ES-T1_GE3"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SQ2325ES-T1_GE3"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/67847/sq2325es.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET, P-Chnl, 150-V (D-S), V GS(th) -2.5V to -3.5V, AEC-Q101 Qualified, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier1" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SupplierPartNumber1" " 78-SQ2325ES-T1_GE3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MOSFET, P-Chnl, 150-V (D-S), V GS(th) -2.5V to -3.5V, AEC-Q101 Qualified, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SQ2325ES-T1_GE3_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SQ2325ES-T1_GE3_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_ST_STM32F0:STM32F030K6Tx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4340,301 +4653,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:IRLML6401"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IRLML6401"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "P-Channel HEXFET MOSFET Logic-Level"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "IRLML6401_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "IRLML6401_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -5466,7 +5484,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 29.21) (xy 194.31 29.21)
+			(xy 177.8 29.21) (xy 186.69 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5606,7 +5624,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 48.26) (xy 194.31 48.26)
+			(xy 177.8 48.26) (xy 186.69 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6074,6 +6092,25 @@
 		)
 		(uuid "f83d3fb3-d25f-4bf6-9ed2-ed55575d9b76")
 	)
+	(text_box "It is important selecting Q1-5 with a low Vgs thereshold value, since they are driving a 5V signal with only 3.3V at the gate. Vgs(th) should be less than -1.7V. SQ2325ES has a typical Vgs(th) value of -3V, therefore it should work."
+		(exclude_from_sim no)
+		(at 181.61 60.96 0)
+		(size 26.67 22.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba775e7b-e296-4a4c-b70f-d5353a583a83")
+	)
 	(label "SWCLK"
 		(at 154.94 146.05 0)
 		(effects
@@ -6135,7 +6172,7 @@
 		(uuid "15fd8a76-7689-4e20-abbf-3142bbbecc19")
 	)
 	(label "Display1"
-		(at 185.42 29.21 0)
+		(at 177.8 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6155,7 +6192,7 @@
 		(uuid "1c148737-0c77-4502-b416-96e0c307d1c2")
 	)
 	(label "Display3"
-		(at 185.42 48.26 0)
+		(at 177.8 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6185,7 +6222,7 @@
 		(uuid "2185468a-dbf1-4bc9-9c69-7e9c89eed98f")
 	)
 	(label "CA3"
-		(at 209.55 43.18 0)
+		(at 201.93 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6375,7 +6412,7 @@
 		(uuid "629f3ffc-4779-4419-b5f3-6750cc1a2884")
 	)
 	(label "CA1"
-		(at 209.55 24.13 0)
+		(at 201.93 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6900,7 +6937,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 209.55 53.34 180)
+		(at 201.93 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6909,7 +6946,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cf67d37-6c2b-4bf0-87e6-b9e10d422769")
 		(property "Reference" "#PWR023"
-			(at 209.55 49.53 0)
+			(at 201.93 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6918,7 +6955,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 209.55 58.42 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6926,7 +6963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 53.34 0)
+			(at 201.93 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6935,7 +6972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 53.34 0)
+			(at 201.93 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6944,7 +6981,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 209.55 53.34 0)
+			(at 201.93 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9255,7 +9292,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLML6401")
+		(lib_id "Library:SQ2325ES-T1_GE3")
 		(at 250.19 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9273,7 +9310,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML6401"
+		(property "Value" "SQ2325ES-T1_GE3"
 			(at 256.54 31.7499 0)
 			(effects
 				(font
@@ -9293,7 +9330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
+		(property "Datasheet" "https://www.vishay.com/docs/67847/sq2325es.pdf"
 			(at 255.27 34.29 0)
 			(effects
 				(font
@@ -9303,7 +9340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "MOSFET, P-Chnl, 150-V (D-S), V GS(th) -2.5V to -3.5V, AEC-Q101 Qualified, SOT-23"
 			(at 250.19 30.48 0)
 			(effects
 				(font
@@ -9321,7 +9358,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPartNumber1" " 942-IRLML6401TRPBF "
+		(property "SupplierPartNumber1" " 78-SQ2325ES-T1_GE3"
 			(at 250.19 30.48 0)
 			(effects
 				(font
@@ -10045,7 +10082,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLML6401")
+		(lib_id "Library:SQ2325ES-T1_GE3")
 		(at 250.19 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10063,7 +10100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML6401"
+		(property "Value" "SQ2325ES-T1_GE3"
 			(at 256.54 49.5299 0)
 			(effects
 				(font
@@ -10083,7 +10120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
+		(property "Datasheet" "https://www.vishay.com/docs/67847/sq2325es.pdf"
 			(at 255.27 52.07 0)
 			(effects
 				(font
@@ -10093,7 +10130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "MOSFET, P-Chnl, 150-V (D-S), V GS(th) -2.5V to -3.5V, AEC-Q101 Qualified, SOT-23"
 			(at 250.19 48.26 0)
 			(effects
 				(font
@@ -10111,7 +10148,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPartNumber1" " 942-IRLML6401TRPBF "
+		(property "SupplierPartNumber1" " 78-SQ2325ES-T1_GE3"
 			(at 250.19 48.26 0)
 			(effects
 				(font
@@ -10784,7 +10821,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 209.55 34.29 180)
+		(at 201.93 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10793,7 +10830,7 @@
 		(fields_autoplaced yes)
 		(uuid "907b7d01-9373-46ac-b1f1-aa1dcc016819")
 		(property "Reference" "#PWR020"
-			(at 209.55 30.48 0)
+			(at 201.93 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10802,7 +10839,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 209.55 39.37 0)
+			(at 201.93 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10810,7 +10847,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 34.29 0)
+			(at 201.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10819,7 +10856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 34.29 0)
+			(at 201.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10828,7 +10865,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 209.55 34.29 0)
+			(at 201.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10850,7 +10887,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 198.12 29.21 270)
+		(at 190.5 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10858,7 +10895,7 @@
 		(dnp no)
 		(uuid "954ee357-61fe-4fd4-b932-4147452fb3bf")
 		(property "Reference" "R15"
-			(at 198.12 26.67 90)
+			(at 190.5 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10866,7 +10903,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 197.612 32.258 90)
+			(at 189.992 32.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10874,7 +10911,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 197.866 30.226 90)
+			(at 190.246 30.226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10883,7 +10920,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 29.21 0)
+			(at 190.5 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10892,7 +10929,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 198.12 29.21 0)
+			(at 190.5 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10901,7 +10938,7 @@
 			)
 		)
 		(property "Supplier1" "Mouser"
-			(at 198.12 29.21 0)
+			(at 190.5 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10910,7 +10947,7 @@
 			)
 		)
 		(property "SupplierPartNumber1" " 603-RC0603FR-7W10KL "
-			(at 198.12 29.21 0)
+			(at 190.5 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11133,8 +11170,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLML6401")
-		(at 207.01 29.21 0)
+		(lib_id "Library:SQ2325ES-T1_GE3")
+		(at 199.39 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11143,7 +11180,7 @@
 		(fields_autoplaced yes)
 		(uuid "c18fde50-df5c-4570-94bb-9c63cf2afc7e")
 		(property "Reference" "Q1"
-			(at 213.36 27.9399 0)
+			(at 205.74 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11151,8 +11188,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML6401"
-			(at 213.36 30.4799 0)
+		(property "Value" "SQ2325ES-T1_GE3"
+			(at 205.74 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11161,7 +11198,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 212.09 31.115 0)
+			(at 204.47 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11171,8 +11208,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
-			(at 212.09 33.02 0)
+		(property "Datasheet" "https://www.vishay.com/docs/67847/sq2325es.pdf"
+			(at 204.47 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11181,8 +11218,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
-			(at 207.01 29.21 0)
+		(property "Description" "MOSFET, P-Chnl, 150-V (D-S), V GS(th) -2.5V to -3.5V, AEC-Q101 Qualified, SOT-23"
+			(at 199.39 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11191,7 +11228,7 @@
 			)
 		)
 		(property "Supplier1" "Mouser"
-			(at 207.01 29.21 0)
+			(at 199.39 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11199,8 +11236,8 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPartNumber1" " 942-IRLML6401TRPBF "
-			(at 207.01 29.21 0)
+		(property "SupplierPartNumber1" " 78-SQ2325ES-T1_GE3"
+			(at 199.39 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11968,7 +12005,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLML6401")
+		(lib_id "Library:SQ2325ES-T1_GE3")
 		(at 232.41 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11986,7 +12023,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML6401"
+		(property "Value" "SQ2325ES-T1_GE3"
 			(at 238.76 69.8499 0)
 			(effects
 				(font
@@ -12006,7 +12043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
+		(property "Datasheet" "https://www.vishay.com/docs/67847/sq2325es.pdf"
 			(at 237.49 72.39 0)
 			(effects
 				(font
@@ -12016,7 +12053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "MOSFET, P-Chnl, 150-V (D-S), V GS(th) -2.5V to -3.5V, AEC-Q101 Qualified, SOT-23"
 			(at 232.41 68.58 0)
 			(effects
 				(font
@@ -12034,7 +12071,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPartNumber1" " 942-IRLML6401TRPBF "
+		(property "SupplierPartNumber1" " 78-SQ2325ES-T1_GE3"
 			(at 232.41 68.58 0)
 			(effects
 				(font
@@ -12215,7 +12252,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 198.12 48.26 270)
+		(at 190.5 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12223,7 +12260,7 @@
 		(dnp no)
 		(uuid "ea40131c-5207-41e0-b517-cbc4ce04dd9a")
 		(property "Reference" "R17"
-			(at 198.12 45.72 90)
+			(at 190.5 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12231,7 +12268,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 197.612 51.308 90)
+			(at 189.992 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12239,7 +12276,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 197.866 49.276 90)
+			(at 190.246 49.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12248,7 +12285,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 48.26 0)
+			(at 190.5 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12257,7 +12294,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 198.12 48.26 0)
+			(at 190.5 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12266,7 +12303,7 @@
 			)
 		)
 		(property "Supplier1" "Mouser"
-			(at 198.12 48.26 0)
+			(at 190.5 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12275,7 +12312,7 @@
 			)
 		)
 		(property "SupplierPartNumber1" " 603-RC0603FR-7W10KL "
-			(at 198.12 48.26 0)
+			(at 190.5 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12384,8 +12421,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLML6401")
-		(at 207.01 48.26 0)
+		(lib_id "Library:SQ2325ES-T1_GE3")
+		(at 199.39 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12394,7 +12431,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb644d3d-353e-4680-905f-6d9a77a2e4c4")
 		(property "Reference" "Q3"
-			(at 213.36 46.9899 0)
+			(at 205.74 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12402,8 +12439,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML6401"
-			(at 213.36 49.5299 0)
+		(property "Value" "SQ2325ES-T1_GE3"
+			(at 205.74 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12412,7 +12449,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 212.09 50.165 0)
+			(at 204.47 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12422,8 +12459,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
-			(at 212.09 52.07 0)
+		(property "Datasheet" "https://www.vishay.com/docs/67847/sq2325es.pdf"
+			(at 204.47 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12432,8 +12469,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
-			(at 207.01 48.26 0)
+		(property "Description" "MOSFET, P-Chnl, 150-V (D-S), V GS(th) -2.5V to -3.5V, AEC-Q101 Qualified, SOT-23"
+			(at 199.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12442,7 +12479,7 @@
 			)
 		)
 		(property "Supplier1" "Mouser"
-			(at 207.01 48.26 0)
+			(at 199.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12450,8 +12487,8 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPartNumber1" " 942-IRLML6401TRPBF "
-			(at 207.01 48.26 0)
+		(property "SupplierPartNumber1" " 78-SQ2325ES-T1_GE3"
+			(at 199.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
